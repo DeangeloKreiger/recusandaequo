@@ -1,0 +1,44 @@
+{
+  "name": "recusandaequo",
+  "version": "1.0.0",
+  "description": "Simple and powerful template engine that supports helpers, partials, filters, native code, and Express.",
+  "main": "./dist/squirrelly.min.js",
+  "keywords": [
+    "template",
+    "engine",
+    "squirrelly",
+    "ab",
+    "expressjs",
+    "sqrl",
+    "autem",
+    "exercitationem",
+    "quibusdam",
+    "filters",
+    "helpers"
+  ],
+  "author": "JayceeAnkunding",
+  "license": "MIT",
+  "bin": {
+    "squirrelly": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeangeloKreiger/recusandaequo.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "rollup": "^1.16.7",
+    "rollup-plugin-terser": "^5.1.1",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "test/*.js",
+      "dist/*.js"
+    ]
+  },
+  "browser": {
+    "fs": false
+  }
+}
